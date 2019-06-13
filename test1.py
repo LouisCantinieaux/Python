@@ -3,7 +3,7 @@
 
 def nbr_choix (N):
     nbr_choisit = N+1
-    
+
     while nbr_choisit < 1 or nbr_choisit > N:
         try:
             nbr_choisit = int(input("selection : "))
@@ -17,7 +17,7 @@ def nbr_choix (N):
     print(nbr_choisit)
     return nbr_choisit
 #main
-         
+
 nbr_choix(4)
 
 print(nbr_choisit)
